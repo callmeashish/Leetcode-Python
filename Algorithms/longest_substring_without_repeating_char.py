@@ -7,7 +7,6 @@ class LongestSub:
         else:
             used_char = {}
             start = 0
-            longest_sub = ""
             max_length = 0
             for i, c in enumerate(s):
                 if c in used_char:
