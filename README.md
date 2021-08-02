@@ -37,4 +37,5 @@ LeetCode problem solutions using Python
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Python](./Algorithms//contains_duplicate_ii.py)|:zap:|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Python](./Algorithms//implement_stack_using_queues.py)|:zap:|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Python](./Algorithms//invert_binary_tree.py)|:zap:|
+|228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Python](./Algorithms//summary_ranges.py)|:zap:|
 |1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Python](./Algorithms/binary_linked_list_to_integer.py)|:zap:|
