@@ -41,4 +41,5 @@ LeetCode problem solutions using Python
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Python](./Algorithms//power_of_two.py)|:zap:|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Python](./Algorithms//implement_queue_using_stacks.py)|:zap:|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Python](./Algorithms//palindrome_linked_list.py)|:zap:|
+|235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Python](./Algorithms//lowest_common_ancestor_of_a_binary_search_tree.py)|:zap:|
 |1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Python](./Algorithms/binary_linked_list_to_integer.py)|:zap:|
