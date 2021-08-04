@@ -43,4 +43,5 @@ LeetCode problem solutions using Python
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Python](./Algorithms//palindrome_linked_list.py)|:zap:|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Python](./Algorithms//lowest_common_ancestor_of_a_binary_search_tree.py)|:zap:|
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Python](./Algorithms//binary_tree_paths.py)|:zap:|
+|258|[Add Digits](https://leetcode.com/problems/add-digits/)|[Python](./Algorithms//add_digits.py)|:zap:|
 |1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Python](./Algorithms/binary_linked_list_to_integer.py)|:zap:|
