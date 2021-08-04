@@ -46,4 +46,5 @@ LeetCode problem solutions using Python
 |258|[Add Digits](https://leetcode.com/problems/add-digits/)|[Python](./Algorithms//add_digits.py)|:zap:|
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/)|[Python](./Algorithms//ugly_number.py)|:zap:|
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[Python](./Algorithms//missing_number.py)|:zap:|
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Python](./Algorithms//first_bad_version.py)|:zap:|
 |1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Python](./Algorithms/binary_linked_list_to_integer.py)|:zap:|
