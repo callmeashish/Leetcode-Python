@@ -48,4 +48,5 @@ LeetCode problem solutions using Python
 |268|[Missing Number](https://leetcode.com/problems/missing-number/)|[Python](./Algorithms//missing_number.py)|:zap:|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Python](./Algorithms//first_bad_version.py)|:zap:|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Python](./Algorithms//move_zeroes.py)|:zap:|
+|290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Python](./Algorithms//word_pattern.py)|:zap:|
 |1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Python](./Algorithms/binary_linked_list_to_integer.py)|:zap:|
