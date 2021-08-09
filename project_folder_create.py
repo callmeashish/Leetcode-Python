@@ -48,12 +48,7 @@ def create_markdown(newline: str):
         file_path = line_arr[3].strip()
         difficulty = line_arr[4].strip()
 
-        markdown_obj = markdown(
-            mid,
-            link,
-            file_path,
-            difficulty
-        )
+        markdown_obj = markdown(mid, link, file_path, difficulty)
         markdown_arr.append(markdown_obj)
 
     markdown_arr.sort(key=lambda x: x.id)
@@ -75,8 +70,7 @@ if __name__ == "__main__":
     options.add_argument("--disable-gpu")
     options.add_argument("log-level=3")
     options.add_experimental_option("excludeSwitches", ["enable-logging"])
-    driver = webdriver.Chrome(
-        executable_path=r"../chromedriver.exe", options=options)
+    driver = webdriver.Chrome(executable_path=r"../chromedriver.exe", options=options)
 
     driver.get(link)
 

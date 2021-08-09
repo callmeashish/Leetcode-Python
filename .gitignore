@@ -1,3 +1,4 @@
 .vscode/
 .metals/
 /order_file.py
+/venv/
