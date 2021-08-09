@@ -41,11 +41,18 @@ def create_markdown(newline: str):
 
     for line in lines[8:]:
         line_arr = line.split("|")
+
+        # Object Values
+        mid = int(line_arr[1].strip())
+        link = line_arr[2].strip()
+        file_path = line_arr[3].strip()
+        difficulty = line_arr[4].strip()
+
         markdown_obj = markdown(
-            int(line_arr[1].strip()),
-            line_arr[2].strip(),
-            line_arr[3].strip(),
-            line_arr[4].strip(),
+            mid,
+            link,
+            file_path,
+            difficulty
         )
         markdown_arr.append(markdown_obj)
 
@@ -68,7 +75,8 @@ if __name__ == "__main__":
     options.add_argument("--disable-gpu")
     options.add_argument("log-level=3")
     options.add_experimental_option("excludeSwitches", ["enable-logging"])
-    driver = webdriver.Chrome(executable_path=r"../chromedriver.exe", options=options)
+    driver = webdriver.Chrome(
+        executable_path=r"../chromedriver.exe", options=options)
 
     driver.get(link)
 
@@ -114,7 +122,7 @@ if __name__ == "__main__":
     file = "_".join([x.lower() for x in title.split()])
     inputfile = file + ".py"
 
-    path = os.path.join("Algorithms/")
+    path = os.path.join("Algorithms/", diff)
 
     newline = f"|{number}|[{title}]({link})|[Python](./{path}/{inputfile})|{sDiff}|"
 
