@@ -102,4 +102,5 @@ LeetCode problem solutions using Python
 |434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|[Python](./Algorithms/Easy/number_of_segments_in_a_string.py)|:zap:|
 |441|[Arranging Coins](https://leetcode.com/problems/arranging-coins/)|[Python](./Algorithms/Easy/arranging_coins.py)|:zap:|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Python](./Algorithms/Easy/find_all_numbers_disappeared_in_an_array.py)|:zap:|
+|453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)|[Python](./Algorithms/Easy/minimum_moves_to_equal_array_elements.py)|:zap:|
 |1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Python](./Algorithms/Easy/binary_linked_list_to_integer.py)|:zap:|
