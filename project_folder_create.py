@@ -114,14 +114,21 @@ if __name__ == "__main__":
     driver.close()
 
     file = "_".join([x.lower() for x in title.split()])
+
     inputfile = file + ".py"
+    test_input_file = "test_" + inputfile
 
     path = os.path.join("Algorithms/", diff)
+    test_path = os.path.join("Algorithms/", diff, "tests/")
 
     newline = f"|{number}|[{title}]({link})|[Python](./{path}/{inputfile})|{sDiff}|"
 
     if not os.path.exists(os.path.join(path, inputfile)):
         with open(os.path.join(path, inputfile), "w"):
+            pass
+
+    if not os.path.exists(os.path.join(test_path, test_input_file)):
+        with open(os.path.join(test_path, test_input_file), "w"):
             pass
 
     create_markdown(newline)
