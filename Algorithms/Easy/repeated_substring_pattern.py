@@ -55,7 +55,7 @@ class RepeatedSubstringPattern:
         kmp_algo(s, n, lps)
         length = lps[n - 1]
 
-        if len(lps) > 0 and n % (n - length) == 0:
+        if length > 0 and n % (n - length) == 0:
             return True
         else:
             return False
