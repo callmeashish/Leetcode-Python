@@ -12,7 +12,7 @@ jobs:
       SEMGREP_RULES: >- # more at semgrep.dev/explore
         p/security-audit
         p/secrets
-        p/python
+        p/python.lang.correctness.file-object-redefined-before-close.file-object-redefined-before-close
 
       # Scan changed files in PRs, block on new issues only (existing issues ignored)
       SEMGREP_BASELINE_REF: << parameters.default_branch >>
