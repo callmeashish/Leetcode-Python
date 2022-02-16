@@ -30,35 +30,34 @@ def create_markdown(newline: str):
 
     path = os.path.join("", filename)
 
-    file = open(path, "r")
+    with open(path, "r") as file:
+            return_string = ""
+            lines = file.readlines()
+            lines.append(newline)
 
-    return_string = ""
-    lines = file.readlines()
-    lines.append(newline)
+            return_string += "".join(lines[:8])
+            markdown_arr = []
 
-    return_string += "".join(lines[:8])
-    markdown_arr = []
+            for line in lines[8:]:
+                line_arr = line.split("|")
 
-    for line in lines[8:]:
-        line_arr = line.split("|")
+                # Object Values
+                mid = int(line_arr[1].strip())
+                link = line_arr[2].strip()
+                file_path = line_arr[3].strip()
+                difficulty = line_arr[4].strip()
 
-        # Object Values
-        mid = int(line_arr[1].strip())
-        link = line_arr[2].strip()
-        file_path = line_arr[3].strip()
-        difficulty = line_arr[4].strip()
+                markdown_obj = markdown(mid, link, file_path, difficulty)
+                markdown_arr.append(markdown_obj)
 
-        markdown_obj = markdown(mid, link, file_path, difficulty)
-        markdown_arr.append(markdown_obj)
+            markdown_arr.sort(key=lambda x: x.id)
 
-    markdown_arr.sort(key=lambda x: x.id)
+            return_string += "\n".join([str(x) for x in markdown_arr])
+            return_string += "\n"
 
-    return_string += "\n".join([str(x) for x in markdown_arr])
-    return_string += "\n"
-
-    file = open(path, "w")
-    file.write(return_string)
-    file.close()
+            file = open(path, "w")
+            file.write(return_string)
+            file.close()
 
 
 if __name__ == "__main__":
