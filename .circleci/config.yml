@@ -21,9 +21,9 @@ jobs:
     # Instead of `SEMGREP_RULES:`, use rules set in Semgrep App.
     # Get your token from semgrep.dev/manage/settings.
       SEMGREP_APP_TOKEN: 2c33ce39000fcaf25c9d21b5bd02125597319ff46635509a359a57371c0c2c66
-    #   SEMGREP_REPO_NAME: << parameters.repo_path >>
-    #   SEMGREP_REPO_URL: << pipeline.project.git_url >>
-    #   SEMGREP_BRANCH: << pipeline.git.branch >>
+      SEMGREP_REPO_NAME: Leetcode-Python
+      SEMGREP_REPO_URL: https://github.com/callmeashish/Leetcode-Python.git
+      SEMGREP_BRANCH: main
 
     # Never fail the build due to findings.
     # Instead, just collect findings for semgrep.dev/manage/findings
